@@ -30,7 +30,7 @@ int main(){
             b = ' ';
     }
     set<string> c; //множество
-    stringstream d(s); //поток
+    stringstream d(s); //поток бла бла
 
     while (d >> i)
         c.insert(i);
@@ -87,9 +87,11 @@ int main() {
     s.pop();
     cout << s.getMin() << '\n'; // 5
 
+
+
     cout << (s.empty() ? "empty" : "not empty") << '\n'; // not empty
     s.pop();
     cout << (s.empty() ? "empty" : "not empty") << '\n'; // empty
 
     return 0;
-}
+}   
