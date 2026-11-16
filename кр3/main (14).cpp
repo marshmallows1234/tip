@@ -30,7 +30,7 @@ int main(){
             b = ' ';
     }
     set<string> c; //множество
-    stringstream d(s); //поток бла бла
+    stringstream d(s); //поток бла
 
     while (d >> i)
         c.insert(i);
